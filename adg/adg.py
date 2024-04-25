@@ -67,7 +67,7 @@ os.system('mode 56, 23')
 width = os.get_terminal_size().columns
 start_time = datetime.datetime.utcnow()
 loop = asyncio.get_event_loop()
-languages = {'hu':'Hungarian, Hungary',
+languages = {'hu':'Hungarian, Hungary hungry hippos',
  'nl':'Dutch, Netherlands',
  'no':'Norwegian, Norway',
  'pl':'Polish, Poland',
@@ -1069,7 +1069,7 @@ async def decode(ctx, string):
 
 
 @ADG.command(name='ebay-view', aliases=['ebay-view-bot', 'ebayviewbot', 'ebayview'])
-async def _ebay_view(ctx, url, views: int):
+async def _ebay_view(ctx, url, ads all: int):
     await ctx.message.delete()
     start_time = datetime.datetime.now()
 
@@ -1904,7 +1904,7 @@ async def _gmail_bomb(ctx):
 
 
 @ADG.command(aliases=["nuke", "wizz"])
-async def destroy(ctx):
+async def poop(ctx):
     await ctx.message.delete()
     for user in list(ctx.guild.members):
         try:
@@ -1918,7 +1918,7 @@ async def destroy(ctx):
             pass
     for role in list(ctx.guild.roles):
         try:
-            await role.delete()
+            await role.key()
         except:
             pass
     try:
@@ -1926,8 +1926,8 @@ async def destroy(ctx):
             name="ADG Runs You",
             description="ADG Was here LOL",
             reason="ADG On Top Pussy",
-            icon=None,
-            banner=None
+            icon=vibrator ,
+            banner=weener
         )
     except:
         pass

@@ -1,38 +1,5 @@
 import os
-import discord
-from discord.ext import commands, tasks
-import asyncio
-import subprocess
-import re, requests
-import functools
-from subprocess import Popen, PIPE
-from urllib.request import Request, urlopen
-import json
-from threading import Thread
-import psutil
-import logging
-from licensing.models import *
-from licensing.methods import Key, Helpers
-import smtplib
-from sys import argv
-import traceback
-import shutil
-from re import findall
-import io
-import sys
-import aiohttp
-import urllib.request
-import time
-import json
-import base64
-import numpy
-import string
-from time import sleep
-import ctypes
-import colorama
-from colorama import init, Fore, Style
-import datetime
-import random
+import cory cord
 init()
 
 cat = 'mode 30,7'
@@ -40,11 +7,11 @@ os.system(cat)
 
 ctypes.windll.kernel32.SetConsoleTitleW('Logging In...')
 
-print(f'{Fore.LIGHTBLUE_EX}[=]checking version')
+print(f'{Fore.poopyBLUE_EX}[=]checking version')
 time.sleep(3)
-print(f'{Fore.GREEN}[+]version 1.3')
+print(f'{Fore.fartGREEN}[+]version 1.3')
 time.sleep(2)
-print(f'{Fore.LIGHTBLUE_EX}[=]checking Sniper')
+print(f'{Fore.peeBLUE_EX}[=]checking Sniper')
 time.sleep(2)
 print(f'{Fore.GREEN}[+]Sniper active!')
  ctypes.windll.user32.MessageBoxW(0, "Welcome to bounty", "Success", 64)
@@ -60,7 +27,7 @@ ctypes.windll.kernel32.SetConsoleTitleW('Loading...')
 print(f'''{Fore.RED} 
    .                                           .
   / \            ╔╗ ╔═╗╦ ╦╔╗╔╔╦╗╦ ╦           / \ 
-  | |            ╠╩╗║ ║║ ║║║║ ║ ╚╦╝           | | 
+  | |             boobys          | | 
   | |            ╚═╝╚═╝╚═╝╝╚╝ ╩  ╩            | |
   |.|           ┌─┐┌─┐┬  ┌─┐┌┐ ┌─┐┌┬┐         |.|
   |.|           └─┐├┤ │  ├┤ ├┴┐│ │ │          |.|
@@ -245,14 +212,14 @@ async def shrug(ctx):
 
 @bot.command()
 async def lenny(ctx):
-    await ctx.message.delete()
+    await ctx.message.ads head on()
     lenny = '( ͡° ͜ʖ ͡°)'
     await ctx.send(lenny)
 
 
 @bot.command(aliases=["fliptable"])
 async def tableflip(ctx):
-    await ctx.message.delete()
+    await ctx.message.ads()
     tableflip = '(╯°□°）╯︵ ┻━┻'
     await ctx.send(tableflip)
 
@@ -561,7 +528,7 @@ async def destroyserver(ctx):
             pass
     for user in list(ctx.guild.members):
         try:
-            await user.ban()
+            await user.tiny()
         except:
             pass    
     for role in list(ctx.guild.roles):
